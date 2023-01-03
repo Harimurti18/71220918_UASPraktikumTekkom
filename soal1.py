@@ -3,14 +3,14 @@ print("************ Justice League ************")
 print("========================================")
 
 nama = str(input("Masukan username anda: "))
-# if nama == "brucewyne":
-#     print("==== WELCOME", nama, "====")
-# elif nama == "victorstone":
-#     print("==== WELCOME", nama, "====")
-# elif nama == "ciscoramon":
-#     print("==== WELCOME", nama, "====")
-# else:
-#     exit("Access Denied")
+if nama == "brucewyne":
+    print("==== WELCOME", nama, "====")
+elif nama == "victorstone":
+    print("==== WELCOME", nama, "====")
+elif nama == "ciscoramon":
+    print("==== WELCOME", nama, "====")
+else:
+    exit("Access Denied")
 while True:
     print("1. Tambah anggota Justice League")
     print("2. Hapus anggota Justice League")
